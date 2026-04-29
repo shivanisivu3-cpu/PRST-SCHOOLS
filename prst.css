@@ -1,17 +1,27 @@
 body {
     text-align: center;
     font-family: Arial;
-    background-color: lightblue;
+    background-color: lightgray;
 }
 
 h1 {
-    color: darkblue;
+    color: purple;
 }
 
 button {
     padding: 10px;
-    background-color: green;
+    background-color: darkorange;
     color: white;
     border: none;
-    cursor: pointer;
+}
+
+input {
+    padding: 8px;
+    margin: 10px;
+}
+
+li {
+    padding: 6px;
+    background-color: white;
+    margin: 5px;
 }

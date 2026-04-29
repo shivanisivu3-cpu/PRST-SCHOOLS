@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Simple W3Schools Example</title>
-    <link rel="stylesheet" href="prst.css">
+    <title>Project Tracker</title>
+    <link rel="stylesheet" href="projects.css">
 </head>
 <body>
 
-    <h1>Welcome</h1>
-    <p id="text">Click the button to change this text</p>
+    <h1>My Projects</h1>
 
-    <button onclick="changeText()"> click here!!</button>
+    <p id="status">No project added</p>
 
-    <script src="prst.js"></script>
+    <input type="text" id="projectInput" placeholder="Enter project name">
+    <button onclick="addProject()">Add Project</button>
+
+    <ul id="projectList"></ul>
+
+    <script src="projects.js"></script>
 </body>
 </html>
